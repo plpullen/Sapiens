@@ -7,6 +7,8 @@ import DictBtn from "./DictBtn"
 import Logo from "./Logo"
 import UploadField from "./UploadField"
 import DarkModeBtn from "./DarkModeBtn"
+import ExportBtn from './ExportBtn'
+
 
 function Navbar() {
   return (
@@ -21,6 +23,7 @@ function Navbar() {
         <DiagramBtn/>
         <DictBtn/>
        <DarkModeBtn/>
+      <ExportBtn/>
        <UploadField/>
       </div>
     </div>

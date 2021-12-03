@@ -12,7 +12,7 @@ import ExportBtn from './ExportBtn'
 
 function Navbar() {
   return (
-    <div className="Navbar bg-green-100	w-full h-10v flex justify-between items-start p-2">
+    <div className="Navbar bg-green-100	w-full h-10v block flex justify-between items-start p-2">
         <Logo/>
       <div className="flex justify-end items-center	pr-4	"> 
         <LangMenu/>

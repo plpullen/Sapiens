@@ -1,15 +1,13 @@
 import React from 'react'
-// import './OutputContainer.css';
-// import LangMenu from './settings/LangMenu'
 import TranslationField from './TranslationField';
 
 
 function OutputContainer() {
   return (
-    <div className="OutputContainer w-screen h-40v rounded-lg	mt-2 ml-2	bg-gray-800 rounded-3xl	">
-      {/* <LangMenu/> */}
-
+    <div className="OutputContainer block bg-green-100 h-45v flex items-center ">
+      <div className="w-11/12 h-5/6 rounded-lg bg-gray-800 rounded-3xl  m-auto">
       <TranslationField/>
+      </div>
     </div>
   );
 }

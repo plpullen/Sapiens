@@ -5,7 +5,7 @@ import OutputContainer from './OutputContainer'
 
 function App() {
   return (
-    <div className="App flex flex-col bg-green-100 h-100v w-screen">
+    <div className="App bg-green-100 h-100v w-100v">
       <Navbar/>
       <InputContainer/> 
       <OutputContainer/>

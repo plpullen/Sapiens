@@ -4,8 +4,8 @@ import React from 'react'
 function TranslationField() {
 
   return (
-    <div className="TextField w-screen">
-    <p className="text-blue-100	ml-2 mt-4" contentEditable='true' spellCheck="false">Hello World.</p>
+    <div className="TextField w-90v p-4">
+    <p className="text-blue-100" contentEditable='true' spellCheck="false">Hello World.</p>
     </div>
   );
 }

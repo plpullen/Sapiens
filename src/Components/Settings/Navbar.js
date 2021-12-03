@@ -1,7 +1,6 @@
 import React from 'react'
 import LangMenu from './LangMenu'
 import SwitchBtn from "./SwitchBtn"
-import ClearBtn from "./ClearBtn.js"
 import DiagramBtn from "./DiagramBtn"
 import DictBtn from "./DictBtn"
 import Logo from "./Logo"
@@ -19,7 +18,6 @@ function Navbar() {
         <p className="inline-block ">➜</p>
         <LangMenu/>
         <SwitchBtn/> 
-        <ClearBtn/>
         <DiagramBtn/>
         <DictBtn/>
        <DarkModeBtn/>
